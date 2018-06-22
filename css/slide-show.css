@@ -1,0 +1,72 @@
+.slide-show {
+  background-image: url("https://dhgywazgeek0d.cloudfront.net/watcha/image/upload/c_fill,h_720,q_80,w_1280/v1529375177/wjkwxedurb1swhvefce4.jpg");
+  background-size: 100%;
+  background-position-y: -150px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.slide-show .slide-show__column {
+  margin-left: 127px;
+  margin-right: 127px;
+}
+
+.slide-show .slide-show__column-text img {
+  height: 25px;
+  border-radius: 50%;
+}
+
+.slide-show__column .slide-show__column-text {
+  font-size: 14px;
+}
+
+.slide-show__column .slide-show__column-text:last-child {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.slide-show__column .slide-show__column-text,
+.slide-show__column .slide-show__column-title {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.slide-show__column .slide-show__column-text i {
+  font-size: 17px;
+}
+
+.slide-show__column .slide-show__column-text .movie-ticketing {
+  padding-right: 17px;
+  border-right: 1px solid #f53c3f;
+}
+
+.slide-show__column .slide-show__column-title {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.slide-show__column .slide-show__column-title a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.slide-show .slide-show__lists {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.slide-show .slide-show__lists .slide-show__list {
+  background-color: gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.slide-show .slide-show__lists .slide-show__list--selected {
+  background-color: white;
+}
