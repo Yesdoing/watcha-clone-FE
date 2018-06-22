@@ -71,6 +71,7 @@
   text-align: center;
   transition-property: background-color;
   transition-duration: 0.4s;
+  margin-left: 15px;
 }
 
 .tab-bar__column .search-bar input:focus {
@@ -82,7 +83,7 @@
   position: absolute;
   color: orange;
   top: 8px;
-  left: 12px;
+  left: 27px;
 }
 
 .tab-bar__column .tab-bar__column-user {
