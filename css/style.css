@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Gothic+A1:300&subset=korean");
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1:300,800&subset=korean");
 @import "reset.css";
 @import "global.css";
 @import "header.css";
 @import "navigation.css";
 @import "slide-show.css";
 @import "movie.css";
+@import "recommand.css";
+@import "new.css";
+@import "footer.css";

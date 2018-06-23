@@ -2,3 +2,17 @@ body {
   font-family: "Gothic A1", sans-serif;
   background-color: #e5e5e5;
 }
+
+body .question-icon {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: #fd625f;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 8px;
+}
