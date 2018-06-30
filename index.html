@@ -64,8 +64,7 @@
             </div>
         </nav>
         <section class="slide-show">
-            <div class="slide-show__column">
-
+            <div class="slide-show__column fade">
                 <div class="slide-show__column-text">
                     <img src="https://d3sz5r0rl9fxuc.cloudfront.net/assets/default/user/photo_file_name_small-bc8b334acec6a4e386249dedf9e763b5e6aff523fa85cc29211f22e6bed540df.jpg"
                         alt="">
@@ -95,12 +94,78 @@
                     </span>
                 </div>
             </div>
-            <ul class="slide-show__lists">
-                <li class="slide-show__list slide-show__list--selected"></li>
-                <li class="slide-show__list"></li>
-                <li class="slide-show__list"></li>
-                <li class="slide-show__list"></li>
-            </ul>
+            <div class="slide-show__column fade">
+                <div class="slide-show__column-text">
+                    <img src="https://d3sz5r0rl9fxuc.cloudfront.net/assets/default/user/photo_file_name_small-bc8b334acec6a4e386249dedf9e763b5e6aff523fa85cc29211f22e6bed540df.jpg"
+                        alt="">
+                    <span>3.6</span>
+                </div>
+                <div class="slide-show__column-text">
+                    <span>오늘의 개봉예정작</span>
+                </div>
+                <div class="slide-show__column-title">
+                    <a href="#">
+                        앤트맨과 와스프
+                    </a>
+                </div>
+                <div class="slide-show__column-text">
+                    <span>평균 별점 : 4.1 , 예매율 : 32.70%</span>
+                </div>
+                <div class="slide-show__column-text">
+                    <span>2018, 미국, 액션</span>
+                </div>
+                <div class="slide-show__column-text">
+                    <span>감독 : 페이튼 리드 , 배우 : 폴 러드, 에반젤린 릴리</span>
+                </div>
+                <div class="slide-show__column-text">
+                    <span class="movie-ticketing">
+                        <i class="fas fa-ticket-alt"></i>
+                        예매하기
+                    </span>
+                </div>
+            </div>
+
+            <div class="slide-show__column fade">
+                <div class="slide-show__column-text">
+                    <img src="https://d3sz5r0rl9fxuc.cloudfront.net/assets/default/user/photo_file_name_small-bc8b334acec6a4e386249dedf9e763b5e6aff523fa85cc29211f22e6bed540df.jpg"
+                        alt="">
+                    <span>4.6</span>
+                </div>
+                <div class="slide-show__column-text">
+                    <span>오늘의 박스오피스</span>
+                </div>
+                <div class="slide-show__column-title">
+                    <a href="#">
+                        몬스터 주식회사
+                    </a>
+                </div>
+                <div class="slide-show__column-text">
+                    <span>평균 별점 : 4.6, 예매율 : 19.58%</span>
+                </div>
+                <div class="slide-show__column-text">
+                    <span>Monsters Inc., 2001, 미국, 애니메이션, 전체 관람가, 1시간 32분</span>
+                </div>
+                <div class="slide-show__column-text">
+                    <span>감독 : 피트 닥터, 데이빗 실버맨, 리 언크리치 배우 : 존 굿맨, 빌리 크리스탈, 매리 깁스, 스티브 부세미, 제임스 코번, 제니퍼 틸리</span>
+                </div>
+                <div class="slide-show__column-text">
+                    <span class="movie-ticketing">
+                        <i class="fas fa-ticket-alt"></i>
+                        예매하기
+                    </span>
+                </div>
+            </div>
+
+            <div class="slide-show__column-pointer">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="slide-show__lists">
+                <span class="slide-show__list" onclick="currentSlide(1)"></span>
+                <span class="slide-show__list" onclick="currentSlide(2)"></span>
+                <span class="slide-show__list" onclick="currentSlide(3)"></span>
+            </div>
         </section>
         <main class="movie">
             <section class="movie__section">
@@ -480,6 +545,7 @@
         <i class="fas fa-question fa-2x question-icon"></i>
     </div>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>
