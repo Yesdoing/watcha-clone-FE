@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>연습장</title>
+    <style>
+        .slide-show {
+            position: absolute;
+            top: 100px;
+            width: 100%;
+            height: 600px;
+            background: gray;
+            margin: 50px
+        }
+
+        .red {
+            top: 150px;
+            width: 100%;
+            height: 100px;
+            background: red;
+
+        }
+
+        .blue {
+            position: inherit;
+            top: 100px;
+            width: 100%;
+            height: 100px;
+            background: blue;
+
+        }
+
+        .yello {
+            position: inherit;
+            top: 100px;
+            width: 100%;
+            height: 100px;
+            background: yellow;
+
+        }
+
+        .slidein {
+            -webkit-animation: slideIn 1s;
+            animation: slideIn 1s;
+            animation-fill-mode: forwards;
+        }
+
+        .slideout {
+            -webkit-animation: slideOut 1s;
+            animation: slideOut 1s;
+            animation-fill-mode: forwards;
+        }
+
+        @-webkit-keyframes slideOut {
+            from {
+                margin-left: 0%;
+            }
+            to {
+                margin-left: 100%
+            }
+        }
+
+        @keyframes slideOut {
+            from {
+                margin-left: 0%;
+            }
+            to {
+                margin-left: 100%
+            }
+        }
+
+        @-webkit-keyframes slideIn {
+            from {
+                margin-left: -100%;
+            }
+            to {
+                margin-left: 0%
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                margin-left: -100%;
+            }
+            to {
+                margin-left: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The @keyframes Rule</h1>
+
+    <p>
+        <strong>Note:</strong> The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</p>
+
+
+    <div class="slide-show">
+        <div class="yello slidein"></div>
+        <div class="blue slideout"></div>
+    </div>
+
+</body>
+
+</html>
