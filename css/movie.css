@@ -1,7 +1,8 @@
 .movie {
-  margin-left: 127px;
-  margin-right: 127px;
-  max-width: 1435px;
+  padding-left: 127px;
+  padding-right: 127px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .movie .movie__section .movie__section-header {
@@ -27,7 +28,10 @@
 }
 
 .movie__section-contents .movie__section-content .content-album img {
-  width: 220px;
+  height: 100%;
+  width: auto;
+  margin-left: 50%;
+  transform: translate(-50%,0);
 }
 
 .movie__section-contents .movie__section-content--main {
@@ -97,9 +101,17 @@
   flex-wrap: wrap;
 }
 
+.movie__section .movie__section-content .content-album {
+  padding: 0px 10px 0px 10px;
+  width: 50%;
+  height: 50%;
+}
+.movie__section .movie__section-content--main .content-album {
+  position: relative
+}
 .movie__section .movie__section-content--main .content-album-info {
   position: absolute;
-  width: 460px;
+  width: 100%;
   color: white;
   background: linear-gradient(
     rgba(0, 0, 0, 0.4),
@@ -107,7 +119,7 @@
     rgba(0, 0, 0, 0.4)
   );
   height: 650px;
-  top: 605px;
+  top: 0px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -131,7 +143,9 @@
 }
 
 .movie__section-content--main .content-album-info .album-info-review img {
+  width: auto;
   height: 40px;
   border-radius: 50%;
   margin-right: 12px;
 }
+
