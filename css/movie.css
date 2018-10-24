@@ -95,10 +95,17 @@
   background-color: black;
 }
 
+.movie__section-contents{
+  height:650px;
+}
 .movie__section-contents .movie__section-content {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.movie__section-contents .movie__section-content.content__albums .content-album{
+  height:50%;
+  display: flex;
 }
 
 .movie__section .movie__section-content .content-album {
