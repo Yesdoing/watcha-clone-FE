@@ -103,15 +103,21 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.movie__section-contents .movie__section-content.content__albums{
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 5px;
+}
 .movie__section-contents .movie__section-content.content__albums .content-album{
-  height:50%;
-  display: flex;
+  height: 50%;
+  width: 220px;
 }
 
 .movie__section .movie__section-content .content-album {
   padding: 0px 10px 0px 10px;
   width: 50%;
   height: 50%;
+  min-width: 220px;
 }
 .movie__section .movie__section-content--main .content-album {
   position: relative
