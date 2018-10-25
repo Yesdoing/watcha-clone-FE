@@ -37,7 +37,7 @@
 }
 
 .slide-show .slide-show__column-pointer {
-  width: 100%;
+  width: 1450px;
   position: absolute;
   display: flex;
   justify-content: space-between;
